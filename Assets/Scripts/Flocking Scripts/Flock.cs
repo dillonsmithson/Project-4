@@ -53,9 +53,6 @@ public class Flock : MonoBehaviour
         foreach(Flock_Agent agent in agents) {
             List<Transform> context = GetNearbyObjects(agent);
 
-            // DEBUG ONLY
-            
-
             Vector3 move = behavior.CalculateMove(agent, context, this);
             move *= driveFactor;
             if (move.sqrMagnitude > squareMaxSpeed)
