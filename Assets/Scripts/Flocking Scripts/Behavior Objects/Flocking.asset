@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16d4fbd06f120c148bf23c90af691d21, type: 3}
+  m_Name: Flocking
+  m_EditorClassIdentifier: 
+  behaviors:
+  - {fileID: 11400000, guid: b7d7fc4e1e184d44eb9105a520e582d6, type: 2}
+  - {fileID: 11400000, guid: bc7c55cc1ded4254cbbc9593b0436573, type: 2}
+  - {fileID: 11400000, guid: a5e3b5d29404bc24b988170cffeeb335, type: 2}
+  - {fileID: 11400000, guid: 475df83232790a64aaa08df7d955f03d, type: 2}
+  weights:
+  - 1
+  - 10000000
+  - 15
+  - 1
